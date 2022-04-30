@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+    --branca: #ffffff;
+}
+
+body {
+    background-color: var(--preta);
+    color: var(--branca);
+}
+
+header .tit {
+    color: var(--vermelho);
+    font-family: 'Arial Black', 'Times New Roman';
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav {
+    width: 400px;
+}
+
+header nav a:hover {
+    color: var(--branca)
+}
+
+header .container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Filme principal */
+
+.filme_principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5) 100%), url('/portifolio/Projeto02_Netflix/resources/capaHp1.jpg');
+    
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.sinopse {
+    margin-bottom: 90px;
+    margin-top: 3px;
+}
+
+.titulo {
+    font-size: 40px;
+    margin-top: 15%;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.5);
+    border: none;
+    color: var(--branca);
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: var(--branca);
+    color: var(--preta);
+}
+
+.botao i {
+    padding-right: 5px;
+}
+
+.marginLeft {
+    padding-left: 15px;
+    width: 80%;
+}
+
+.box-film {
+    height: 100%;
+    width: 100%;
+    display:block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
+
+footer h6 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    flex-direction: row;
+}
