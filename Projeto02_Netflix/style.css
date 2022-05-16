@@ -55,7 +55,7 @@ header .container {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
+    
 }
 
 .sinopse {
@@ -110,4 +110,8 @@ footer h6 {
     font-size: 15px;
     margin-top: 5px;
     flex-direction: row;
+}
+
+.item:hover{
+    color: #ffffff69;
 }
